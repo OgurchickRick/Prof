@@ -1,5 +1,7 @@
 package steps;
 
-public interface Steps {
+import pages.Pages;
+
+public interface Steps{
     LoginStep LOGIN_STEP = new LoginStep();
 }

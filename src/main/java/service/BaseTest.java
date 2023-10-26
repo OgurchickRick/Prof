@@ -6,7 +6,7 @@ import org.testng.annotations.BeforeMethod;
 import pages.Pages;
 import steps.Steps;
 
-public class BaseTest implements Steps, Pages {
+public class BaseTest implements Steps{
 
     Driver driver = new Driver();
 
